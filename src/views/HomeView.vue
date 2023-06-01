@@ -35,7 +35,7 @@ const miniMenu = ref(false)
 const testMenu = [
   {
     name: 'Tipo do infográfico',
-    icon: { text: 'home' , class: 'material-icons-outlined' },
+    icon: { text: 'Tio' , class: 'material-icons-outlined' },
     children: [
       {
         href: '/#1',
