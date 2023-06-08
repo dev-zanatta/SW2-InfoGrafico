@@ -1,6 +1,6 @@
-const infos2019 = {
-  titulo: "Informações de 2019",
-  ano: 2019,
+const infos2022 = {
+  titulo: "Informaçõe sde 2022",
+  ano: 2022,
   dados: [
     {
       continente: "americaSul",
@@ -10,27 +10,27 @@ const infos2019 = {
       empregados: 15,
       desempregados: 16000,
       vitoriasVasco: 4,
-      derrotasVasco: "mais de 27000",
+      derrotasVasco: "mais de 1",
     },
     {
       continente: "americaNorte",
       mortes: 1,
-      nascimentos: 3121,
+      nascimentos: 1567,
       class: "linhaAmericaNorte",
-      empregados: 1125,
-      desempregados: 312312,
-      vitoriasVasco: 1212,
-      derrotasVasco: "mais de 27000",
+      empregados: 15,
+      desempregados: 16000,
+      vitoriasVasco: 1,
+      derrotasVasco: "mais de 1000",
     },
     {
       continente: "asia",
       mortes: 1,
       nascimentos: 1567,
       class: "linhaAsia",
-      empregados: 12312,
-      desempregados: 121,
-      vitoriasVasco: 4,
-      derrotasVasco: "mais de 27000",
+      empregados: 15,
+      desempregados: 16000,
+      vitoriasVasco: 0,
+      derrotasVasco: "mais de 1500",
     },
     {
       continente: "europa",
@@ -38,9 +38,9 @@ const infos2019 = {
       nascimentos: 1567,
       class: "linhaEuropa",
       empregados: 15,
-      desempregados: 12112,
-      vitoriasVasco: 4,
-      derrotasVasco: "mais de 27000",
+      desempregados: 16000,
+      vitoriasVasco: 25,
+      derrotasVasco: "mais de 2",
     },
     {
       continente: "africa",
@@ -48,9 +48,9 @@ const infos2019 = {
       nascimentos: 1567,
       class: "linhaAfrica",
       empregados: 15,
-      desempregados: 3121,
-      vitoriasVasco: 4,
-      derrotasVasco: "mais de 27000",
+      desempregados: 16000,
+      vitoriasVasco: 2,
+      derrotasVasco: "mais de 3",
     },
     {
       continente: "oceania",
@@ -59,10 +59,10 @@ const infos2019 = {
       class: "linhaOceania",
       empregados: 15,
       desempregados: 16000,
-      vitoriasVasco: 4,
-      derrotasVasco: "mais de 27000",
+      vitoriasVasco: 3,
+      derrotasVasco: "mais de 8",
     },
   ],
 };
 
-export default infos2019;
+export default infos2022;
