@@ -1,5 +1,5 @@
 const infos2022 = {
-  titulo: "Informaçõe sde 2022",
+  titulo: "informações de 2022",
   ano: 2022,
   dados: [
     {
@@ -9,8 +9,6 @@ const infos2022 = {
       class: "linhaAmericaSul",
       empregados: 15,
       desempregados: 16000,
-      vitoriasVasco: 4,
-      derrotasVasco: "mais de 1",
     },
     {
       continente: "americaNorte",
@@ -19,8 +17,6 @@ const infos2022 = {
       class: "linhaAmericaNorte",
       empregados: 15,
       desempregados: 16000,
-      vitoriasVasco: 1,
-      derrotasVasco: "mais de 1000",
     },
     {
       continente: "asia",
@@ -29,8 +25,6 @@ const infos2022 = {
       class: "linhaAsia",
       empregados: 15,
       desempregados: 16000,
-      vitoriasVasco: 0,
-      derrotasVasco: "mais de 1500",
     },
     {
       continente: "europa",
@@ -39,8 +33,6 @@ const infos2022 = {
       class: "linhaEuropa",
       empregados: 15,
       desempregados: 16000,
-      vitoriasVasco: 25,
-      derrotasVasco: "mais de 2",
     },
     {
       continente: "africa",
@@ -49,8 +41,6 @@ const infos2022 = {
       class: "linhaAfrica",
       empregados: 15,
       desempregados: 16000,
-      vitoriasVasco: 2,
-      derrotasVasco: "mais de 3",
     },
     {
       continente: "oceania",
@@ -59,8 +49,6 @@ const infos2022 = {
       class: "linhaOceania",
       empregados: 15,
       desempregados: 16000,
-      vitoriasVasco: 3,
-      derrotasVasco: "mais de 8",
     },
   ],
 };

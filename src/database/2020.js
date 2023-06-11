@@ -1,5 +1,5 @@
 const infos2020 = {
-  titulo: "Informaçõe sde 2020",
+  titulo: "informações de 2020",
   ano: 2020,
   dados: [
     {
@@ -9,8 +9,6 @@ const infos2020 = {
       class: "linhaAmericaSul",
       empregados: 12,
       desempregados: 312,
-      vitoriasVasco: 4,
-      derrotasVasco: "mais de 27000",
     },
     {
       continente: "americaNorte",
@@ -19,8 +17,6 @@ const infos2020 = {
       class: "linhaAmericaNorte",
       empregados: 15,
       desempregados: 123,
-      vitoriasVasco: 32,
-      derrotasVasco: "mais de 27000",
     },
     {
       continente: "asia",
@@ -29,8 +25,6 @@ const infos2020 = {
       class: "linhaAsia",
       empregados: 312331,
       desempregados: 3123,
-      vitoriasVasco: 1231,
-      derrotasVasco: "mais de 27000",
     },
     {
       continente: "europa",
@@ -39,8 +33,6 @@ const infos2020 = {
       class: "linhaEuropa",
       empregados: 1234,
       desempregados: 14234,
-      vitoriasVasco: 4,
-      derrotasVasco: "mais de 27000",
     },
     {
       continente: "africa",
@@ -49,8 +41,6 @@ const infos2020 = {
       class: "linhaAfrica",
       empregados: 15,
       desempregados: 1234,
-      vitoriasVasco: 4,
-      derrotasVasco: "mais de 27000",
     },
     {
       continente: "oceania",
@@ -59,8 +49,6 @@ const infos2020 = {
       class: "linhaOceania",
       empregados: 15,
       desempregados: 1234,
-      vitoriasVasco: 123,
-      derrotasVasco: "mais de 27000",
     },
   ],
 };

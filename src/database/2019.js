@@ -9,8 +9,6 @@ const infos2019 = {
       class: "linhaAmericaSul",
       empregados: 15,
       desempregados: 16000,
-      vitoriasVasco: 4,
-      derrotasVasco: "mais de 27000",
     },
     {
       continente: "americaNorte",
@@ -19,8 +17,6 @@ const infos2019 = {
       class: "linhaAmericaNorte",
       empregados: 1125,
       desempregados: 312312,
-      vitoriasVasco: 1212,
-      derrotasVasco: "mais de 27000",
     },
     {
       continente: "asia",
@@ -29,8 +25,6 @@ const infos2019 = {
       class: "linhaAsia",
       empregados: 12312,
       desempregados: 121,
-      vitoriasVasco: 4,
-      derrotasVasco: "mais de 27000",
     },
     {
       continente: "europa",
@@ -39,8 +33,6 @@ const infos2019 = {
       class: "linhaEuropa",
       empregados: 15,
       desempregados: 12112,
-      vitoriasVasco: 4,
-      derrotasVasco: "mais de 27000",
     },
     {
       continente: "africa",
@@ -49,8 +41,6 @@ const infos2019 = {
       class: "linhaAfrica",
       empregados: 15,
       desempregados: 3121,
-      vitoriasVasco: 4,
-      derrotasVasco: "mais de 27000",
     },
     {
       continente: "oceania",
@@ -59,8 +49,6 @@ const infos2019 = {
       class: "linhaOceania",
       empregados: 15,
       desempregados: 16000,
-      vitoriasVasco: 4,
-      derrotasVasco: "mais de 27000",
     },
   ],
 };

@@ -1,5 +1,5 @@
 const infos2021 = {
-  titulo: "Informaçõe sde 2021",
+  titulo: "informações de 2021",
   ano: 2021,
   dados: [
     {
@@ -9,8 +9,6 @@ const infos2021 = {
       class: "linhaAmericaSul",
       empregados: 15,
       desempregados: 16000,
-      vitoriasVasco: 23,
-      derrotasVasco: "mais de 41234",
     },
     {
       continente: "americaNorte",
@@ -19,8 +17,6 @@ const infos2021 = {
       class: "linhaAmericaNorte",
       empregados: 312,
       desempregados: 423,
-      vitoriasVasco: 13,
-      derrotasVasco: "mais de 412",
     },
     {
       continente: "asia",
@@ -29,8 +25,6 @@ const infos2021 = {
       class: "linhaAsia",
       empregados: 234,
       desempregados: 4123,
-      vitoriasVasco: 12,
-      derrotasVasco: "mais de 612",
     },
     {
       continente: "europa",
@@ -39,8 +33,6 @@ const infos2021 = {
       class: "linhaEuropa",
       empregados: 213,
       desempregados: 42,
-      vitoriasVasco: 43,
-      derrotasVasco: "mais de 423",
     },
     {
       continente: "africa",
@@ -49,8 +41,6 @@ const infos2021 = {
       class: "linhaAfrica",
       empregados: 15,
       desempregados: 42,
-      vitoriasVasco: 43,
-      derrotasVasco: "mais de 27000",
     },
     {
       continente: "oceania",
@@ -59,8 +49,6 @@ const infos2021 = {
       class: "linhaOceania",
       empregados: 12,
       desempregados: 321,
-      vitoriasVasco: 4,
-      derrotasVasco: "mais de 27000",
     },
   ],
 };
