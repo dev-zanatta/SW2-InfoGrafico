@@ -1,6 +1,6 @@
 <template>
   <main style="background-color: white; height: 100vh; width: 100vw">
-    <div class="teste">
+    <div class="fundo">
       <VueAwesomeSideBar
         v-model:miniMenu="miniMenu"
         :menu="testMenu"
@@ -91,7 +91,7 @@ const testMenu = [
 </script>
 
 <style>
-.teste {
+.fundo {
   background-image: url("../img/fundo.png");
   background-size: contain;
   background-repeat: no-repeat;
