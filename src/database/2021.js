@@ -25,7 +25,7 @@ const infos2021 = {
     },
     {
       continente: "europa",
-      alfabetizacao_ambiental: "74",
+      alfabetizacao_ambiental: "74%",
       investimento_edu_ambiental: "US$ 840 milhões",
       class: "linhaEuropa",
       acesso_alfabetizacao_ambiental: "79%",

@@ -5,6 +5,7 @@
         v-model:miniMenu="miniMenu"
         :menu="testMenu"
         vueRouterEnabel
+        
         checkButtonActive
       ></VueAwesomeSideBar>
       <div
@@ -16,18 +17,46 @@
           color: black;
           font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         "
-      >
-        {{ dadosSelecionados.titulo }}
+      ></div>
+    </div>
+    <div v-if="dadosSelecionados">
+      <div class="linhaAmericaSul">
+        <div>Ámerica do Sul</div>
+        <div>Alfabetização Ambiental : {{ dadosSelecionados.dados[0].alfabetizacao_ambiental }} </div>
+        <div>Acesso à alfabetização Ambiental : {{ dadosSelecionados.dados[0].acesso_alfabetizacao_ambiental }} </div>
+        <div>Investimento em Educação Ambiental : {{ dadosSelecionados.dados[0].investimento_edu_ambiental }} </div>
+      </div>
+      <div class="linhaAmericaNorte">
+        <div>Ámerica do Norte</div>
+        <div>Alfabetização Ambiental : {{ dadosSelecionados.dados[1].alfabetizacao_ambiental }} </div>
+        <div>Acesso à alfabetização Ambiental : {{ dadosSelecionados.dados[1].acesso_alfabetizacao_ambiental }} </div>
+        <div>Investimento em Educação Ambiental : {{ dadosSelecionados.dados[1].investimento_edu_ambiental }} </div>
+      </div>
+      <div class="linhaAsia">
+        <div>Ásia</div>
+        <div>Alfabetização Ambiental : {{ dadosSelecionados.dados[2].alfabetizacao_ambiental }} </div>
+        <div>Acesso à alfabetização Ambiental : {{ dadosSelecionados.dados[2].acesso_alfabetizacao_ambiental }} </div>
+        <div>Investimento em Educação Ambiental : {{ dadosSelecionados.dados[2].investimento_edu_ambiental }} </div>
+      </div>
+      <div class="linhaEuropa">
+        <div>Europa</div>
+        <div>Alfabetização Ambiental : {{ dadosSelecionados.dados[3].alfabetizacao_ambiental }} </div>
+        <div>Acesso à alfabetização Ambiental : {{ dadosSelecionados.dados[3].acesso_alfabetizacao_ambiental }} </div>
+        <div>Investimento em Educação Ambiental : {{ dadosSelecionados.dados[3].investimento_edu_ambiental }} </div>
+      </div>
+      <div class="linhaAfrica">
+        <div>África</div>
+        <div>Alfabetização Ambiental : {{ dadosSelecionados.dados[4].alfabetizacao_ambiental }} </div>
+        <div>Acesso à alfabetização Ambiental : {{ dadosSelecionados.dados[4].acesso_alfabetizacao_ambiental }} </div>
+        <div>Investimento em Educação Ambiental : {{ dadosSelecionados.dados[4].investimento_edu_ambiental }} </div>
+      </div>
+      <div class="linhaOceania">
+        <div>Oceania</div>
+        <div>Alfabetização Ambiental : {{ dadosSelecionados.dados[5].alfabetizacao_ambiental }} </div>
+        <div>Acesso à alfabetização Ambiental : {{ dadosSelecionados.dados[5].acesso_alfabetizacao_ambiental }} </div>
+        <div>Investimento em Educação Ambiental : {{ dadosSelecionados.dados[5].investimento_edu_ambiental }} </div>
       </div>
     </div>
-    <div class="linhaAmericaSul">
-      Ámerica do Sul
-    </div>
-    <div class="linhaAmericaNorte">Ámerica do Norte</div>
-    <div class="linhaAsia">Ásia</div>
-    <div class="linhaEuropa">Europa</div>
-    <div class="linhaAfrica">África</div>
-    <div class="linhaOceania">Oceania</div>
   </main>
 </template>
 <script setup>
@@ -45,18 +74,15 @@ const dados2021 = infos2021;
 const dados2022 = infos2022;
 const dadosSelecionados = computed(() => {
   if (anoSelecionado.value === "#2019") {
-    console.log("2019");
     return dados2019;
   } else if (anoSelecionado.value === "#2020") {
-    console.log("2020");
     return dados2020;
   } else if (anoSelecionado.value === "#2021") {
-    console.log("2021");
     return dados2021;
   } else if (anoSelecionado.value === "#2022") {
-    console.log("2022");
     return dados2022;
   }
+  return dados2022;
 });
 const anoSelecionado = computed(() => {
   return route.hash;
@@ -65,6 +91,7 @@ const miniMenu = ref(true);
 const testMenu = [
   {
     name: "Ano de referência",
+    icon: "fa fa-calendar",
     children: [
       {
         href: "/#2022",
@@ -83,9 +110,6 @@ const testMenu = [
         name: "2019",
       },
     ],
-  },
-  {
-    name: "Sobre",
   },
 ];
 </script>
@@ -125,8 +149,8 @@ const testMenu = [
   width: 400px;
   height: 4px;
   background-color: black;
-  margin-left: 1000px;
-  margin-top: 30px;
+  margin-left: 1150px;
+  margin-top: 50px;
   color: black;
 }
 
@@ -135,7 +159,7 @@ const testMenu = [
   height: 4px;
   background-color: black;
   margin-left: 800px;
-  margin-top: -50px;
+  margin-top: -100px;
   color: black;
 }
 

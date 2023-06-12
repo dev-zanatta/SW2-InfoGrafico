@@ -4,7 +4,7 @@ const infos2019 = {
   dados: [
     {
       continente: "americaSul",
-      alfabetizacao_ambiental: "42",
+      alfabetizacao_ambiental: "42%",
       investimento_edu_ambiental: "US$ 200 milhões",
       class: "linhaAmericaSul",
       acesso_alfabetizacao_ambiental: "52%",
