@@ -5,6 +5,7 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/SW2-InfoGrafico/',
   plugins: [vue()],
   resolve: {
     alias: {
